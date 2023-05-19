@@ -1,0 +1,22 @@
+<div class="container my-5">
+    <div class="row">
+        <div class="col-12">
+            <h2>Feel free to look our rooms</h2>
+        </div>
+        <hr>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 mt-5">
+        <div class="col" *ngFor="let habitacion of habitaciones">
+        <div class="card h-100 shadow text-center mt-3"> 
+            <h4>{{habitacion.nombre}}</h4>
+            <img src={{habitacion.foto[0]}} alt="foto" class="img-fluid w-100">
+            <h6>{{habitacion.descripcion}}</h6>
+            <h6>
+                <i class="bi bi-person-fill"></i>
+                x{{habitacion.cantidadMaxima}}
+            </h6>
+            <h6 class="fw-bold"> Desde: {{habitacion.precioNoche}}</h6>
+        </div>    
+        </div>
+    </div>
+</div>
