@@ -8,24 +8,8 @@
     z-index: 1;
 }
 
-.banner2{
-    background-image: url("../../assets/img/nangu_rooms15.jpg");
-    background-position: top center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 25%;
-}
-
-.zoom{
-    transition: transform .2s;
-}
-
-.zoom:hover
-{
-    transform: scale(0.9);
-}
 .banner::after{
-    content: '';
+    content:'';
     position: absolute;
     background-color: black;
     top: 0;
@@ -33,5 +17,15 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.1;
+}
+    
+.title {
+  letter-spacing: 3px;
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #ffffff, #fcfcfc, #00ff72, #00cc0a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
