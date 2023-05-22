@@ -5,3 +5,5 @@ export interface Habitacion{
     precioNoche: number,
     cantidadMaxima: number
 }
+
+// El interfaz viene con los datos del modelo de datos que viene del backend. 
