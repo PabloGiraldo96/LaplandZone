@@ -8,3 +8,5 @@ export interface Reserva {
     idHabitacionReserva: string,
     costoReserva: number
 }
+
+// El interfaz tiene los datos del modelo de datos que viene del backend
