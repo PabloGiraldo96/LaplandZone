@@ -20,12 +20,30 @@
     opacity: 0.1;
 }
     
-.title {
+.animated-title {
   letter-spacing: 3px;
   font-size: 3rem;
   font-weight: bold;
-  background: linear-gradient(to right, #ffffff, #fcfcfc, #00ff72, #00cc0a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+  animation-name: title-animation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: initial;
+}
+
+@keyframes title-animation {
+  0% {
+    /* Initial state */
+    transform: scale(1);
+    color: #0a3bb8;
+  }
+  50% {
+    /* Intermediate state */
+    transform: scale(1.5);
+    color: #1df3d6; /* Replace with the desired blue color */
+  }
+  100% {
+    /* Final state */
+    transform: scale(1);
+    color: initial;
+  }
 }
