@@ -8,11 +8,11 @@
 }
 
 .zoom{
-    transition: transform .2s;
+  transition: transform .6s;
 }
 
 .zoom:hover {
-    transform: scale(0.9);
+transform: scale(.9);
 }
 
 .banner::after{

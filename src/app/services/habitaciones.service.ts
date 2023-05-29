@@ -10,8 +10,6 @@ import {Observable} from 'rxjs'
 export class HabitacionesService {
   public url: string = "https://node-viernes2023.vercel.app"
 
-
-
   constructor(public servicioHabitacion: HttpClient) { }
 
   public buscarHabitaciones(): Observable<any> { 
@@ -19,9 +17,6 @@ export class HabitacionesService {
     let uri = this.url + endpoint
     return this.servicioHabitacion.get(uri)
   }
-  
-  
-  
   
   
   public buscarHabitacion(){}

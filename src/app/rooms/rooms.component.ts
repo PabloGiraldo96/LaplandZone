@@ -10,9 +10,6 @@ import { HabitacionesService } from '../services/habitaciones.service';
 
 export class RoomsComponent {
  
-
-
-
   public habitaciones: Habitacion[] = []
 
   public constructor(public servicio: HabitacionesService ){
@@ -21,9 +18,5 @@ export class RoomsComponent {
       console.log(respuesta);
       this.habitaciones = respuesta.habitaciones
     })
-
-
   }
-
-
 }

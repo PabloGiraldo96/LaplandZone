@@ -1,5 +1,5 @@
 .zoom{
-    transition: transform .2s;
+    transition: transform .5s;
 }
 
 .zoom:hover {

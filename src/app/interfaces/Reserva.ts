@@ -1,6 +1,6 @@
 export interface Reserva {
-    nombreCliente: string,
-    apellidoCliente: string,
+    nombre: string,
+    apellido: string,
     telefono: number,
     fechaInicio: Date,
     fechaFinal: Date,
