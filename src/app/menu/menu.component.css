@@ -1,3 +1,7 @@
 .menu{
     background-color: rgb(39, 71, 73);
 }
+
+body {
+  scroll-behavior: smooth;
+}

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Reserva } from '../interfaces/Reserva';
 import { ReservasService } from '../services/reservas.service';
 
@@ -11,13 +11,20 @@ import { ReservasService } from '../services/reservas.service';
 
 export class ReservasComponent {
   
+test: any
+
 public reservas: Reserva[] = []
 
-public constructor(public servicio: ReservasService){
+public constructor(public servicio: ReservasService){  } 
+
+
+ngOnInit(): void {
     this.servicio.buscarReservas()
     .subscribe((respuesta) => {
-      console.log(respuesta)
-      this.reservas = respuesta.reservas
+      this.test = respuesta.habitaciones
+      console.log(this.test)
+      //this.reservas = respuesta.reservas
+    console.log(respuesta)
     })
-  } 
+  }
 }

@@ -15,64 +15,21 @@
       <th scope="col">Phone Number</th>
       <th scope="col">Starting date</th>
       <th scope="col">Ending date</th>
-      <th scope="col">How many are going? </th>
+      <th scope="col" class="text-center">How many are going? </th>
       <th scope="col"> Cost </th>
     </tr>
   </thead>
-
-<!--*ngFor="let reserva of reservas"-->
-
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td> Otto </td>
-      <td> Brendts </td>
-      <td> 302145854</td>
-      <td> 10/06/2023 </td>
-      <td> 15/06/2023 </td>
-      <td > 3 </td>
-      <td> 35000 </td>
+  <tbody >
+    <tr *ngFor="let reserva of test; let iControl = index">
+    <td class="text-center"> {{iControl}} </td>
+    <td> {{reserva.nombre}} </td>
+    <td> {{reserva.apellido}} </td>
+    <td> {{reserva.telefono}} </td>
+    <td> {{reserva.fechaInicio | date:'yyyy-MM-dd'}} </td>
+    <td> {{reserva.fechaFinal  | date:'yyyy-MM-dd'}} </td>
+    <td class="text-center"> {{reserva.numeroPersonas}} </td>
+    <td> {{reserva.costoReserva}} </td>
     </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td  colspan="0">Jacob</td>
-      <td  colspan="0">Thornton</td>
-      <td  colspan="0"> 351215 </td>
-      <td  colspan="0"> 20/06/2023 </td>
-      <td  colspan="0"> 25/06/2023 </td>
-      <td  colspan="0"> 2 </td>
-      <td  colspan="0"> 2200 </td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="0">Mike</td>
-      <td colspan="0">Robert</td>
-      <td  colspan="0"> 135453 </td>
-      <td  colspan="0"> 12/06/2023 </td>
-      <td  colspan="0"> 18/06/2023 </td>
-      <td  colspan="0"> 1 </td>
-      <td  colspan="0"> 1600 </td>
-    </tr>
-    <tr>
-      <th  scope="row">4</th>
-      <td  colspan="0">Larry </td>
-      <td  colspan="0">Hudson</td>
-      <td  colspan="0"> 135453 </td>
-      <td  colspan="0"> 12/06/2023 </td>
-      <td  colspan="0"> 18/06/2023 </td>
-      <td  colspan="0"> 1 </td>
-      <td  colspan="0"> 1600 </td>
-    </tr>
-        <tr>
-        <th scope="row">5</th>
-      <td  colspan="0">Larry </td>
-      <td  colspan="0">Hudson</td>
-      <td  colspan="0"> 135453 </td>
-      <td  colspan="0"> 12/06/2023 </td>
-      <td  colspan="0"> 18/06/2023 </td>
-      <td  colspan="0"> 1 </td>
-      <td  colspan="0"> 1600 </td>
-        </tr>
   </tbody>
 </table>
 </div>

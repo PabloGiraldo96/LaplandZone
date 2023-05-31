@@ -19,4 +19,12 @@ export class RoomsComponent {
       this.habitaciones = respuesta.habitaciones
     })
   }
+
+showModal = false;
+  fotoSeleccionada!: string;
+
+  openModal(foto: string) {
+    this.fotoSeleccionada = foto;
+    this.showModal = true;
+  }
 }
