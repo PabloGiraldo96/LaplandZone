@@ -12,15 +12,20 @@ export class HabitacionesService {
 
   constructor(public servicioHabitacion: HttpClient) { }
 
-  public buscarHabitaciones(): Observable<any> { 
+  buscarHabitaciones(): Observable<any> { 
     let endpoint = "/buscarhabitaciones"
-    let uri = this.url + endpoint
+    let uri:string = this.url + endpoint
     return this.servicioHabitacion.get(uri)
   }
   
+
+  registrarHabitaciones(datos: any): Observable<any> { 
+    let endpoint = "/registrarhabitacion"
+    let urlServicio: string = this.url + endpoint
+    return this.servicioHabitacion.post(urlServicio, datos)
+  }
   
   public buscarHabitacion(){}
-  public crearHabitacion(){}
   public editarHabitacion(){}
 
 }

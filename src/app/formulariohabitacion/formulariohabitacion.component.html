@@ -1,0 +1,43 @@
+<app-menu></app-menu>
+
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-12 col-md-8">
+            <h2 class="my-5">Registro habitaciones </h2>
+            <hr>
+            <form [formGroup]="formulario" (ngSubmit)="procesarDatos()" >
+                <div class="my-5">
+                    <label class="form-label">Name </label>
+                    <input type="text" class="form-control" formControlName="nombre"> 
+                </div>
+                <div class="my-5">
+                    <label class="form-label">Pic </label>
+                    <input type="text" class="form-control" formControlName="foto">
+                </div>
+                <div class="my-5">
+                    <label class="form-label"> Description </label>
+                    <input type="text" class="form-control" formControlName="descripcion">
+                </div>
+                <div class="my-5">
+                    <label class="form-label"> Price per night </label>
+                    <input type="number" class="form-control" formControlName="precioNoche">
+                </div>
+                <div class="my-5">
+                    <label class="form-label"> cantidad Maxima </label>
+                    <input type="number" class="form-control" formControlName="cantidadMaxima">
+                </div>
+
+                <button type="submit"  class="btn btn-primary w-100"> Registrar </button>
+
+            </form>
+
+        </div>
+        <div class="col-12 col-md-4 align-self-center">
+            <img src="../../assets/img/nangu_rooms14.jpg" alt="" class="img-fluid w-100">
+
+        </div>
+
+
+    </div>
+</div>

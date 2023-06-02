@@ -1,7 +1,14 @@
-.menu{
-    background-color: rgb(39, 71, 73);
-}
 
 body {
   scroll-behavior: smooth;
+}
+
+.menu{
+  background-color: transparent;
+  transition: 1s;
+}
+
+.menu2{
+  background-color: black;
+  transition: 2s;
 }
