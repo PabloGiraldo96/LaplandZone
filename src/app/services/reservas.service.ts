@@ -15,12 +15,17 @@ export class ReservasService {
 
   public buscarReservas(): Observable<any> { 
     let endpoint = "/buscarreservas"
-    let uri = this.url + endpoint
+    let uri: string = this.url + endpoint
     return this.servicioReserva.get(uri)
   }
 
+  public registrarReserva(datos: any): Observable<any>{
+    let endpoint = "/registrarreserva"
+    let uriServicio: string = this.url + endpoint
+    return this.servicioReserva.post(uriServicio, datos)
+}
+
   public buscarReserva(){}
-  public crearReserva(){}
   public editarReserva(){}
 
 }

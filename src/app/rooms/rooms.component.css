@@ -21,14 +21,31 @@
   font-size: 16px;
 }
 
+
+.card {
+border-radius: 25px;
+box-shadow: inset 28px 28px 56px #c3c3c3,
+            inset -28px -28px 56px #fdfdfd;
+}
+
+
 .custom-modal {
+   align-items: center;  
   width: 800px; /* Ajusta el ancho máximo del modal */
   margin: 5; /* Centra el modal horizontalmente */
 }
 
 .custom-modal .modal-dialog {
-  align-items: center;  
+ 
   max-height: 550px; /* Ajusta la altura máxima del modal */
   height: 50%; /* Ajusta la altura del modal */
 }
 
+.subtitle{
+letter-spacing: 3px;
+font-size: 2.5rem;
+font-weight: bold;
+  background: linear-gradient(-45deg, #4aff08, #ff8a6a, #ff7044, #2579ff, #60d9fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

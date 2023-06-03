@@ -24,23 +24,20 @@ body {
     opacity: 0.4;
 }
     
-.animated-title {
+.title {
   letter-spacing: 3px;
   font-size: 3rem;
   font-weight: bold;
-  background: linear-gradient(45deg, #87ff5b, #fad0c4, #fad0c4, #a1c4fd, #a1c4fd);
+  background: linear-gradient(-45deg, #87ff5b, #fad0c4, #fad0c4, #a1c4fd, #a1c4fd);
+  background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 1.2s ease-in-out ;
+  animation: gradient 7s ease infinite;
 }
-
-
-
 
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
-    scale: 1.8;
 	}
 	50% {
 		background-position: 100% 50%;

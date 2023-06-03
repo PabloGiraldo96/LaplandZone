@@ -1,0 +1,56 @@
+<app-menu></app-menu>
+<div class="banner text-white">
+    <div class="p-5 text-white fw-bold text-center">
+        <h1 class="title">Reservations</h1>
+    </div>
+</div>
+<div class="container my-5">
+    <div class="row">
+        <div class="col-12 col-md-8">
+            <h2 class="my-5 subtitle"> Reserve with us </h2>
+            <hr>
+            <form [formGroup]="formulario" (ngSubmit)="procesarDatos()">
+                <div class="my-5">
+                    <label class="form-label">Name </label>
+                    <input type="text" class="form-control" formControlName="nombre"> 
+                </div>
+                <div class="my-5">
+                    <label class="form-label">Last name </label>
+                    <input type="text" class="form-control" formControlName="apellido">
+                </div>
+                <div class="my-5">
+                    <label class="form-label"> Phone number </label>
+                    <input type="number" class="form-control" formControlName="telefono">
+                </div>
+                <div class="my-5">
+                    <label class="form-label"> Starting on </label>
+                    <input type="date" class="form-control" formControlName="fechaInicio">
+                </div>
+                <div class="my-5">
+                    <label class="form-label"> Ending on </label>
+                    <input type="date" class="form-control" formControlName="fechaFinal">
+                </div>
+                <div class="my-5">
+                    <label class="form-label"> How many are going? </label>
+                    <input type="number" class="form-control" formControlName="numeroPersonas">
+                </div>
+
+<!--INSERTAR ID HABITACION HABER SI ESE ES EL FALLO -->
+
+                <div class="my-5">
+                    <label class="form-label"> Price </label>
+                    <input type="number" class="form-control" formControlName="costoReserva">
+                </div>
+
+                <button type="submit" class="btn btn-primary my-2"data-bs-toggle="popover" title="Success registering a room" data-bs-content="And here's some amazing content. It's very engaging. Right?" role="button"> Reservation here </button>
+
+            </form>
+
+        </div>
+        <div class="col-12 col-md-4 align-self-center my-3">
+            <img src="../../assets/img/formRoom2.jpg" alt="imgForm" class="img-fluid shadow">
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

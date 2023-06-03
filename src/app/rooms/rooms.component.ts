@@ -25,6 +25,6 @@ showModal = false;
 
   openModal(foto: string) {
     this.fotoSeleccionada = foto;
-    this.showModal = true;
+    this.showModal = true;  
   }
 }

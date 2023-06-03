@@ -8,6 +8,7 @@ import {Observable} from 'rxjs'
   providedIn: 'root'
 })
 export class HabitacionesService {
+
   public url: string = "https://node-viernes2023.vercel.app"
 
   constructor(public servicioHabitacion: HttpClient) { }

@@ -1,10 +1,13 @@
 <app-menu></app-menu>
-
-
+<div class="banner text-white">
+    <div class="p-5 text-white fw-bold text-center">
+        <h1 class="title">Room reservations</h1>
+    </div>
+</div>
 <div class="container my-5">
     <div class="row">
         <div class="col-12 col-md-8">
-            <h2 class="my-5">Registro habitaciones </h2>
+            <h2 class="my-5 subtitle">Register rooms </h2>
             <hr>
             <form [formGroup]="formulario" (ngSubmit)="procesarDatos()" >
                 <div class="my-5">
@@ -12,7 +15,7 @@
                     <input type="text" class="form-control" formControlName="nombre"> 
                 </div>
                 <div class="my-5">
-                    <label class="form-label">Pic </label>
+                    <label class="form-label">Picture </label>
                     <input type="text" class="form-control" formControlName="foto">
                 </div>
                 <div class="my-5">
@@ -24,20 +27,19 @@
                     <input type="number" class="form-control" formControlName="precioNoche">
                 </div>
                 <div class="my-5">
-                    <label class="form-label"> cantidad Maxima </label>
+                    <label class="form-label"> People allowed </label>
                     <input type="number" class="form-control" formControlName="cantidadMaxima">
                 </div>
 
-                <button type="submit"  class="btn btn-primary w-100"> Registrar </button>
+                <button type="submit" class="btn btn-primary w-35 my-2"data-bs-toggle="popover" title="Success registering a room" data-bs-content="And here's some amazing content. It's very engaging. Right?" role="button"> Register here </button>
 
             </form>
 
         </div>
-        <div class="col-12 col-md-4 align-self-center">
-            <img src="../../assets/img/nangu_rooms14.jpg" alt="" class="img-fluid w-100">
-
+        <div class="col-12 col-md-4 align-self-center my-3">
+            <img src="../../assets/img/formRoom.jpg" alt="imgForm" class="img-fluid shadow">
         </div>
-
-
     </div>
 </div>
+
+<app-footer></app-footer>

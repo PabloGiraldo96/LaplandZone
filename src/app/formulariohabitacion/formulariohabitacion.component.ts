@@ -4,9 +4,6 @@ import { Habitacion } from '../interfaces/Habitacion';
 import {HabitacionesService} from '../services/habitaciones.service' 
 
 
-
-
-
 @Component({
   selector: 'app-formulariohabitacion',
   templateUrl: './formulariohabitacion.component.html',
@@ -40,10 +37,6 @@ let datos = this.formulario.value
 this.servicio.registrarHabitaciones(datos)
 .subscribe((respuesta)=> {
 console.log(respuesta)
-}) 
-
-}
-
-
-
+    }) 
+  }
 }
