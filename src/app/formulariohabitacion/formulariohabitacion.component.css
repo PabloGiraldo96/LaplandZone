@@ -1,5 +1,5 @@
 .banner{
-    background-image: url("../../assets/img/banner.jpg");
+    background-image: url("../../assets/img/nangu_rooms15.jpg");
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
@@ -49,8 +49,8 @@ font-weight: bold;
 }
 
 .title {
-  letter-spacing: 3px;
-  font-size: 3rem;
+  letter-spacing: 10px;
+  font-size: 3.5rem;
   font-weight: bold;
   background: linear-gradient(-45deg, #87ff5b, #fad0c4, #fad0c4, #a1c4fd, #a1c4fd);
   background-size: 400% 400%;

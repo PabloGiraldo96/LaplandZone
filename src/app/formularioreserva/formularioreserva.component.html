@@ -35,7 +35,12 @@
                     <input type="number" class="form-control" formControlName="numeroPersonas">
                 </div>
 
-<!--INSERTAR ID HABITACION HABER SI ESE ES EL FALLO -->
+                <div class="my-5">
+                    <label class="form-label"> Room  </label>
+                    <select name="" id="" formControlName="idHabitacionReserva" class="dropdown-toggle ms-4 control">
+                        <option value="{{habitacion._id}}" *ngFor="let habitacion of habitaciones" > {{habitacion.nombre}}</option>
+                    </select>
+                </div>
 
                 <div class="my-5">
                     <label class="form-label"> Price </label>

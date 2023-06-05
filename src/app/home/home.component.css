@@ -2,17 +2,23 @@ body {
   scroll-behavior: smooth;
 }
 
-.banner{
-    background-image: url("../../assets/img/banner.jpg");
-    background-position: top center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 25%;
-    position: relative;
-    z-index: 1;
+.banner-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56%;
 }
 
-.banner::after{
+.banner-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+.banner-video::after{
     content:'';
     position: absolute;
     background-color: black;
@@ -20,19 +26,23 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: -1;
     opacity: 0.4;
+    z-index: -1;
 }
     
 .title {
-  letter-spacing: 3px;
-  font-size: 3rem;
+  letter-spacing: 25px;
+  z-index: 1;
+  font-size: 3.5rem;
+  position: relative;
+  top: 500px;
+  left: 25px;
   font-weight: bold;
-  background: linear-gradient(-45deg, #87ff5b, #fad0c4, #fad0c4, #a1c4fd, #a1c4fd);
+  background: linear-gradient(-45deg, #ff7f5c, #8fff66, #6aff34, #609dff, #65a0ff);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 7s ease infinite;
+  animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
@@ -45,4 +55,12 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+
+from{
+  opacity: 0.5;
+}
+  to{
+  opacity: 1;
+}
+
 }

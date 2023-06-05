@@ -1,5 +1,5 @@
 .banner{
-    background-image: url("../../assets/img/banner.jpg");
+    background-image: url("../../assets/img/nangu_rooms15.jpg");
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
@@ -39,6 +39,30 @@ img{
 	width: 480px;
 }
 
+.control{
+ display: block;
+  width: 70%;
+  height: calc(1.5em + 0.75rem + 2px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Estilo al hacer focus */
+.control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
 .subtitle{
 letter-spacing: 3px;
 font-size: 2rem;
@@ -49,10 +73,10 @@ font-weight: bold;
 }
 
 .title {
-  letter-spacing: 3px;
-  font-size: 3rem;
+  letter-spacing: 10px;
+  font-size: 3.5rem;
   font-weight: bold;
-  background: linear-gradient(-45deg, #87ff5b, #fad0c4, #fad0c4, #a1c4fd, #a1c4fd);
+  background: linear-gradient(-45deg, #87ff5b, #ff8d6e, #ff6237, #a1c4fd, #a1c4fd);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
