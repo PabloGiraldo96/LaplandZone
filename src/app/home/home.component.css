@@ -31,9 +31,9 @@ body {
 }
     
 .title {
-  letter-spacing: 25px;
+  letter-spacing: 3vw;
   z-index: 1;
-  font-size: 3.5rem;
+  font-size: 3.5vw;
   position: relative;
   top: 500px;
   left: 25px;
@@ -62,5 +62,14 @@ from{
   to{
   opacity: 1;
 }
+}
 
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos con un ancho máximo de 768px */
+  .title {
+    font-size: 8vw; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+    letter-spacing: 4vw; /* Ajusta el espaciado para dispositivos más pequeños */
+    top: 140px; /* Ajusta la posición vertical para dispositivos más pequeños */
+    left: 8px; /* Ajusta la posición horizontal para dispositivos más pequeños */
+  }
 }
