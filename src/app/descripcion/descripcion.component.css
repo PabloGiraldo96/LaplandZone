@@ -35,3 +35,17 @@ font-weight: bold;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos con un ancho máximo de 768px */
+ .banner2 {
+    padding: 10%; /* Ajusta el relleno del banner para dispositivos más pequeños */
+  }
+
+  img {
+    height: auto; /* Hace que la altura de la imagen sea automática para dispositivos más pequeños */
+    width: 100%;
+  }
+
+}

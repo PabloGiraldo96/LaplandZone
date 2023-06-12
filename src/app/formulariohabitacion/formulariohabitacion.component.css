@@ -49,8 +49,8 @@ font-weight: bold;
 }
 
 .title {
-  letter-spacing: 10px;
-  font-size: 3.5rem;
+  letter-spacing: 1vw;
+  font-size: 3vw;
   font-weight: bold;
   background: linear-gradient(-45deg, #87ff5b, #fad0c4, #fad0c4, #a1c4fd, #a1c4fd);
   background-size: 400% 400%;
@@ -69,4 +69,27 @@ font-weight: bold;
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos específicos para dispositivos con un ancho máximo de 768px */
+  .title {
+    font-size: 6vw; /* Ajusta el tamaño de fuente para dispositivos más pequeños */
+    letter-spacing: 1vw; /* Ajusta el espaciado para dispositivos más pequeños */
+    top: 140px; /* Ajusta la posición vertical para dispositivos más pequeños */
+    left: 8px; /* Ajusta la posición horizontal para dispositivos más pequeños */
+  }
+
+.subtitle{
+ font-size: 6vw;
+}
+
+ .banner {
+    padding: 10%; /* Ajusta el relleno del banner para dispositivos más pequeños */
+  }
+
+  img {
+    height: auto; /* Hace que la altura de la imagen sea automática para dispositivos más pequeños */
+    width: 100%;
+  }
 }

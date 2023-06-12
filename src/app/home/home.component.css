@@ -26,7 +26,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.6;
     z-index: -1;
 }
     
@@ -72,4 +72,10 @@ from{
     top: 140px; /* Ajusta la posición vertical para dispositivos más pequeños */
     left: 8px; /* Ajusta la posición horizontal para dispositivos más pequeños */
   }
+
+  img {
+    height: auto; /* Hace que la altura de la imagen sea automática para dispositivos más pequeños */
+    width: 100%;
+  }
+
 }
