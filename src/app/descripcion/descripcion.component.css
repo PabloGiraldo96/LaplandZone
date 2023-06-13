@@ -3,8 +3,9 @@
     background-image: url("../../assets/img/banner.jpg");
     background-position: top center;
     background-size: cover;
+     width: 100%;
     background-attachment: fixed;
-    padding: 21%;
+    padding: 20%;
 }
 
 .zoom{
@@ -40,7 +41,7 @@ font-weight: bold;
 @media screen and (max-width: 768px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 768px */
  .banner2 {
-    padding: 55%; /* Ajusta el relleno del banner para dispositivos más pequeños */
+    padding: 75%; /* Ajusta el relleno del banner para dispositivos más pequeños */
 
   }
 }
