@@ -1,31 +1,25 @@
 # LaplandZoneHotel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
+**Complete web application simulating a hotel website, made with NodeJS, Express, Angular and MongoDB**
 
-## Development server
+**The web shows some available fragances and some whatsapp clients conversations about the purchases**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**Contains the frontend made in Angular, playing with some components, also shows a complete list of fragances and the conection to a Whatsapp number via Whatsapp API**
 
-## Code scaffolding
+## Screenshots:
+![App Screenshot](https://scontent.feoh1-1.fna.fbcdn.net/v/t1.15752-9/356605588_6649851171700181_4308949846614401198_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGaCpySU5ezCZFRGPZ-QDXeerEdAhsYbNZ6sR0CGxhs1qnw2ac0aEebqB6BzkYfMfhHP6uay85n5rEUCFNKLEbR&_nc_ohc=-QjylRAN4EoAX-Ptzpc&_nc_ht=scontent.feoh1-1.fna&oh=03_AdSkMVnnSGcLOUMn0i37rT1-2pob1uP-F5xg3SMiOu1e8A&oe=64C00FED)
+![App Screenshot](https://scontent.feoh1-1.fna.fbcdn.net/v/t1.15752-9/354199153_3542544852732929_5950804426354298622_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEynzoR65MTSjJQEYjGMuPnmOI1BtymkjiY4jUG3KaSOAldIGahOyvq_E-iji9WEmNvpRPB66XMR8dMfLhEc2pA&_nc_ohc=cX7GuhViiGUAX8y_HnR&_nc_ht=scontent.feoh1-1.fna&oh=03_AdQm4wxf5SSB6OiVgElCdEfSp4AbwcflcvWK7BycX43OEQ&oe=64C00071)
+![App Screenshot](https://scontent.feoh1-1.fna.fbcdn.net/v/t1.15752-9/356472552_652449299714361_2887901910484368731_n.png?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEZNQrA5wTnMYmm3HqV0eoPPhd01Q9bCpw-F3TVD1sKnEXSh5KbS7gGVCDgAcMYxx_72b4i3SXRfojTw1buelIJ&_nc_ohc=e8ehwXIs8oIAX-aOGD4&_nc_ht=scontent.feoh1-1.fna&oh=03_AdRTcnw8hdcgIpmLPsJNu43ndfa1HK9Gr169keUs6JYO4w&oe=64C00C4E)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-# LaplandZone
-
-**Academic website made with Angular on the frontend, it has server connection through the link https://node-viernes2023.vercel.app/**
+# Badges: 	
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+ 
+ ## Topics Discussed
+ * Angular as Frontend
+ * Components
+ * Typescript
+ * Bootstrap styling
+ * *** 
+All rights reserved by [Juan Pablo Jaramillo](https://github.com/Pablogiraldo96)
