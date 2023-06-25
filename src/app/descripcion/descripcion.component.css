@@ -16,17 +16,6 @@
 transform: scale(.9);
 }
 
-.banner::after{
-    content: '';
-    position: absolute;
-    background-color: black;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.4;
-}
 
 .subtitle{
 letter-spacing: 3px;
@@ -41,7 +30,8 @@ font-weight: bold;
 @media screen and (max-width: 768px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 768px */
  .banner2 {
-    padding: 75%; /* Ajusta el relleno del banner para dispositivos más pequeños */
-
+    padding: 10%; 
+    object-fit: contain;
+    image-rendering:optimizeQuality;
   }
 }

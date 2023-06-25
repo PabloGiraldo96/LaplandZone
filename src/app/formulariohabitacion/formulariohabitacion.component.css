@@ -85,7 +85,9 @@ font-weight: bold;
 }
 
  .banner {
-    padding: 10%; /* Ajusta el relleno del banner para dispositivos más pequeños */
+    padding: 10%; 
+    object-fit: contain;
+    image-rendering:optimizeQuality;
   }
 
   img {
