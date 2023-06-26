@@ -2,9 +2,9 @@
 
 **Complete web application simulating a hotel website, made with NodeJS, Express, Angular and MongoDB**
 
-**The web shows some available fragances and some whatsapp clients conversations about the purchases**
+**This website contains a complete proyect that allows to register a person into a room, entering the data into a MongoDB Cluster Database**
 
-**Contains the frontend made in Angular, playing with some components, also shows a complete list of fragances and the conection to a Whatsapp number via Whatsapp API**
+**Contains the frontend which was made with angular and Bootstrap, and the connection to the backend API created with NodeJS and Express as library**
 
 ## Screenshots:
 ![App Screenshot](https://scontent.feoh1-1.fna.fbcdn.net/v/t1.15752-9/356605588_6649851171700181_4308949846614401198_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGaCpySU5ezCZFRGPZ-QDXeerEdAhsYbNZ6sR0CGxhs1qnw2ac0aEebqB6BzkYfMfhHP6uay85n5rEUCFNKLEbR&_nc_ohc=-QjylRAN4EoAX-Ptzpc&_nc_ht=scontent.feoh1-1.fna&oh=03_AdSkMVnnSGcLOUMn0i37rT1-2pob1uP-F5xg3SMiOu1e8A&oe=64C00FED)
