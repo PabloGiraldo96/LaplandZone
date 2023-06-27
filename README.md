@@ -42,6 +42,6 @@
 **Visit the website here:  
 https://lapland-zone.vercel.app/** 
 
-* ***
+ ##
  
 All rights reserved by [Juan Pablo Jaramillo](https://github.com/Pablogiraldo96)
